@@ -1,2 +1,13 @@
+Partitioning of Tasks:
 
-Testing
+Title Page, Description, Diagrams:
+- Everyone
+
+Description of classes:
+- Jacel
+
+Description of Attributes:
+- Hunter
+
+Description of Operations:
+- Bryan
