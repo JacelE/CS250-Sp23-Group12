@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Partitioning of Tasks:
 
 Title Page, Description, Diagrams:
@@ -12,3 +13,7 @@ Description of Attributes:
 Description of Operations:
 - Bryan
 
+=======
+Testing - Jacel
+Testing
+>>>>>>> 1eaffe113caabbb741985d266a0479ff62fdd276
