@@ -19,5 +19,6 @@ turn off the alarm once triggered and access the location of such alarm.
 sub sub testing
 
 ## Diagrams
-![UML Diagram of first use case] (large-tree-13.jpg)
+
+![UML Diagram of first use case] (https://github.com/JacelE/CS250-Sp23-Group12/raw/main/large-tree-13.jpg)
 
