@@ -21,6 +21,6 @@ sub sub testing
 
 ## Diagrams
 
-![Image](https://github.com/JacelE/CS250-Sp23-Group12/raw/main/large-tree-13.jpg)
+![test image of a tree](large-tree-13.jpg)
 
 
