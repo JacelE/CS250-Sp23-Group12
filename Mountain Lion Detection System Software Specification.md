@@ -16,11 +16,23 @@ to the user. Finally, in order to access the alarm system the park rangers must 
 turn off the alarm once triggered and access the location of such alarm. 
 
 ## Description
-sub sub testing
+[Place Description Here]
 
 
 ## Diagrams
 
-![test image of a tree](large-tree-13.jpg)
+![first diagram](large-tree-13.jpg)
 
+![second diagram](large-tree-13.jpg)
+
+### Description of Classes
+Jacel
+
+
+### Description of Attributes
+Hunter
+
+
+### Description of Operations
+Bryan
 
