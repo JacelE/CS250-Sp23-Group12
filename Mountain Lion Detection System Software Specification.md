@@ -2,10 +2,10 @@
 
 ## Overview
 The Mountain Lion Detection System will be a system that will help detect and alarm park rangers 
-of any animal noises within the park. In order to achieve this there will be an amount of classes, 
+of any animal noises within the park. In order to achieve this there will be classes, 
 and methods within the classes, to attend to any specific alarm/alert scenario. This program is 
-specifically meant to detect mountain lions hence will focus a lot on the detection of any specific 
-sounds/noises of animals. Therefore, the sensors would be programmed to detect animal noises. This 
+specifically meant to detect mountain lions and hence will focus a lot on the detection of any specific 
+sounds/noises of animals. Therefore, the sensors will be programmed to detect animal noises. This 
 software will start with designing the Pop-Up Alert which will be called if any noises are to be 
 picked up and that will be covered with a class called Alarm. That class will be the basis of 
 capturing any sort of alarms throughout the park and will determine if the noise captured is an 
@@ -15,15 +15,21 @@ to note the dates of every alarm. Another class will pinpoint the actual locatio
 to the user. Finally, in order to access the alarm system the park rangers must login to therefore 
 turn off the alarm once triggered and access the location of such alarm. 
 
-## Description
-[Place Description Here]
-
-
 ## Diagrams
 
-![first diagram](large-tree-13.jpg)
+<img src="Architectural-Diagram.jpg" width="40%" height="40%">
+<sub> 
 
-![second diagram](large-tree-13.jpg)
+The Animal-R-Here sensors will detect sounds of animals and generate an alert to the park ranger terminal. From here 
+the software will sound an audio alarm to get the attention of park rangers, then pull information from the California 
+Park Database in order to creating a report detailing the sound type detected, location of the noise, and the date when 
+it was detected. Afterwards the report will be stored in the database for future reference. When a park ranger logs on 
+in order to disable the alarm and check the report, the system will match their credentials against the park ranger database
+before allowing them in to acces a map api showing the report and the location of the detection. 
+</sub>
+
+
+!<img src="UMLdiagram.jpg" width="40%" height="40%">
 
 ### Description of Classes
 Jacel
