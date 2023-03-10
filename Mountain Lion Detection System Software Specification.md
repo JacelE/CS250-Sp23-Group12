@@ -1,5 +1,5 @@
 # Mountain Lion Detection System
-
+Created by: Bryan Aguilar, Jacel Evangelista, Hunter Paul 
 
 ## Overview
 The Mountain Lion Detection System will be a system that will help detect and alarm park rangers 
@@ -47,4 +47,13 @@ Bryan
 ## Development Plan and Timeline
 
 ### Partitioning of Tasks
+3/2 - Initial commit with title and overview of the system  
+3/6 - Create Architectural Diagram
+3/8 - Create UML Diagram and create architectural diagram description
+3/9 - Create UMl Digram class, operations, and attributes descriptions
 
+### Team Member Responsibilities
+Everyone - Description and Diagrams
+Bryan - UML Operations description
+Jacel - UML Classes Description
+Hunter - UML Attributes Description
