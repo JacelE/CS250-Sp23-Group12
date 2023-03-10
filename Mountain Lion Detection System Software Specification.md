@@ -53,7 +53,7 @@ Bryan
 3/9 - Create UML Digram class, operations, and attributes descriptions  
 
 ### Team Member Responsibilities
-Everyone - Description and Diagrams
-Bryan - UML Operations description
-Jacel - UML Classes Description
-Hunter - UML Attributes Description
+Everyone - Description and Diagrams  
+Bryan - UML Operations description  
+Jacel - UML Classes Description  
+Hunter - UML Attributes Description  
