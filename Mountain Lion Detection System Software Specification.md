@@ -1,5 +1,6 @@
 # Mountain Lion Detection System
 
+
 ## Overview
 The Mountain Lion Detection System will be a system that will help detect and alarm park rangers 
 of any animal noises within the park. In order to achieve this there will be classes, 
@@ -17,16 +18,18 @@ turn off the alarm once triggered and access the location of such alarm.
 
 ## Diagrams
 
+### Architectural Diagram
+
 <img src="Architectural-Diagram.jpg" width="40%" height="40%">
 <sub> The Animal-R-Here sensors will detect sounds of animals and generate an alert to the park ranger terminal. From here 
 the software will sound an audio alarm to get the attention of park rangers, then pull information from the California 
 Park Database in order to creating a report detailing the sound type detected, location of the noise, and the date when 
 it was detected. Afterwards the report will be stored in the database for future reference. When a park ranger logs on 
 in order to disable the alarm and check the report, the system will match their credentials against the park ranger database
-before allowing them in to acces a map api showing the report and the location of the detection. </sub>
+before allowing them in to acces a map api showing the report and the location of the detection.</sub>
 
-
-!<img src="UMLDiagram.jpg" width="40%" height="40%">
+### UML Diagram
+<img src="UMLDiagram.jpg" width="40%" height="40%">
 
 ### Description of Classes
 Jacel
