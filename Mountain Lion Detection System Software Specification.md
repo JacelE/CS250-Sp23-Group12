@@ -90,7 +90,24 @@ park and display them on the map, and MapControl is a public variable of type Ma
 
 
 ### Operations
-Bryan
+Looking above at the UML Diagram you are demonstrated with multiple operations/methods. As 
+shown in the userRanger class we are presented with eight operations. The first six operations are 
+designed to get and set each ranger’s name, username, and password. Lastly, the last two 
+operations are tasked to inspect whether the ranger is in the database, and if found the system 
+will give the user access to the detection system. Moving on to the Control System class we are 
+given three operations. The first two operations are related to creating the alarm and the sound in 
+which the alarm produces whenever a mountain lion is detected. Lastly, the class will also have 
+an operation that will allow the user to log out of the system. The Alarm System consists of 3 
+basic methods. The task for these methods is to get the location of sensors whenever an alarm 
+goes off and the ability to turn off the alarm. However, the Alarm System won’t work without the 
+Alarm Class. The alarm class is what helps the alarm system by getting the time at which an 
+alarm goes off, the name of the alarm, and the ability to map out an alarm/sensor. Continuing to 
+the Map System we are given the operations to get data from the sensors and also receive park 
+control from the Park Control class. In order to gain access to the Park Control the system will 
+go through the security protocol operation to make sure the ranger has access to modify the map. 
+The Animals-R-Here class consists of the operations to get the sound of the sensors and send 
+them back to the software and database. Finally, our Report class contains two operations that 
+sort the reports according to the input from the user, and the second function displays the reports.
 
 ## Development Plan and Timeline
 
