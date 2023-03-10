@@ -20,7 +20,7 @@ turn off the alarm once triggered and access the location of such alarm.
 
 ### Architectural Diagram
 
-<img src="Architectural-Diagram.jpg" width="40%" height="40%">
+<img src="Architectural-Diagram.jpg" width="60%" height="60%">
 <sub> The Animal-R-Here sensors will detect sounds of animals and generate an alert to the park ranger terminal. From here 
 the software will sound an audio alarm to get the attention of park rangers, then pull information from the California 
 Park Database in order to creating a report detailing the sound type detected, location of the noise, and the date when 
@@ -29,7 +29,7 @@ in order to disable the alarm and check the report, the system will match their 
 before allowing them in to acces a map api showing the report and the location of the detection.</sub>
 
 ### UML Diagram
-<img src="UMLDiagram.jpg" width="40%" height="40%">
+<img src="UMLDiagram.jpg" width="60%" height="60%">
 
 ## UML Descriptions
 
