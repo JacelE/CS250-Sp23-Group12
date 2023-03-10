@@ -26,7 +26,7 @@ the software will sound an audio alarm to get the attention of park rangers, the
 Park Database in order to creating a report detailing the sound type detected, location of the noise, and the date when 
 it was detected. Afterwards the report will be stored in the database for future reference. When a park ranger logs on 
 in order to disable the alarm and check the report, the system will match their credentials against the park ranger database
-before allowing them in to acces a map api showing the report and the location of the detection.</sub>
+before allowing them to access a map api showing the report and the location of the detection.</sub>
 
 ### UML Diagram
 <img src="UMLDiagram.jpg" width="60%" height="60%">
