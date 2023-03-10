@@ -34,7 +34,30 @@ before allowing them to access a map api showing the report and the location of 
 ## UML Descriptions
 
 ### Classes
-Jacel
+UserRanger:  
+This class is designed to have individual rangers input their login credentials and validate it, in order to login to the system.  
+  
+ControlSystem:  
+This class is meant to design the specific alarm that will be set whenever an animal is detected and logout when necessary.  
+  
+AlarmSystem:  
+This class is designed to create the alarm when it has been set off and determines what type of alarm it would be based on the animal detected.  
+  
+Alarm:  
+This class is designed to send all attributes of the given alarm to the alarm system to determine which alarm to set off / which animal has been detected and the location of such alert.  
+  
+ParkControl:  
+This class is designed to notify the security/rangers and to do the necessary steps when an alarm is called.  
+  
+MapSystem:  
+This class is the source of the map and can determine where the sound was detected and return such location through its sensors.  
+  
+Report:  
+The Report class works as a live After-Action Report on the situation that triggered the alarm; it is used to show the user what is going on, on what sound was played, to when it happened, to the location, etc.   
+  
+AnimalRHere:  
+This class is the main sensor/trigger for sounds regarding the animals. It can determine where the alarm was triggered and send what type of sound it was.  
+
 
 
 ### Attributes
