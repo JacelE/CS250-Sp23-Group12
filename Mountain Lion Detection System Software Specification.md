@@ -44,3 +44,7 @@ Hunter
 ### Operations
 Bryan
 
+## Development Plan and Timeline
+
+### Partitioning of Tasks
+
