@@ -31,14 +31,16 @@ before allowing them in to acces a map api showing the report and the location o
 ### UML Diagram
 <img src="UMLDiagram.jpg" width="40%" height="40%">
 
-### Description of Classes
+## UML Descriptions
+
+### Classes
 Jacel
 
 
-### Description of Attributes
+### Attributes
 Hunter
 
 
-### Description of Operations
+### Operations
 Bryan
 
