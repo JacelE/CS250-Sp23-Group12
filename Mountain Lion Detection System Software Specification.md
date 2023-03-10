@@ -38,7 +38,32 @@ Jacel
 
 
 ### Attributes
-Hunter
+The class userRanger has four attributes; Fullname, rangerId, username, and password. Fullname is a public string variable that will store the first and 
+last name of the park ranger logging into the account; rangerId is a public long variable that will store the numerical Id associated with the ranger account; 
+username is a public string variable that stores the account username that the ranger uses to login to the account; password is a public string variable that stores the 
+password used to log into the ranger account.  
+  
+The class ControlSystem has one attribute, sensor. Sensor is a public variable of type sensors that will be used to create alarm systems and activate them.
+by the system.  
+  
+The class Alarm has 5 attributes: name, time, location, sound, and AlertType. Name is a public string variable that holds the name of the alarm; time is a public int
+variable that will store the time when the alarm is activated; location is a public long variable that will store the location of where the alarm was activated; sound 
+is a public variable that will store the sound that was captured when the alarm was activated; AlertType is a public string that will store the type of alert that
+caused the alarm activation.  
+
+The class AlarmSystem has 3 attributes; sound, detectionType, and alert. Sound is a public variable that will store the sound variable from the alarm class if the 
+alarm goes off; detectionType is a public string variable that will store what type of detection that the system captured; alert is a public instance of the alarm class 
+that will be used to interact with the attributes of the alarm class.  
+  
+The class Report has 5 attributes; sound, date, location, alertType, and reportType. Sound is a public string variable that will store the type of sound that was captured when the 
+alarm was triggered; date is a public string variable that will store the date at which the alert was triggered; location is a public string variable that will store the location 
+where the alarm was activated; alertType is a public string that will store the type of alert that was captured when the alarm went off; reportType is a public string variable that 
+will store the type of report that was created by the alarm system.  
+  
+The class AnimalRHere has 1 attribute, feed. Feed is a private variable of type soundStream that will store a recording of a captured sound when the alarm system was triggered.  
+  
+The class MapSystem has 2 attributes, sensorList and MapControl. sensorList is a public variable of type Sensors that will store a list of all active sensors currently in the 
+park and display them on the map, and MapControl is a public variable of type MapSystem that will be used by the park ranger to interact with the map.
 
 
 ### Operations
@@ -50,7 +75,7 @@ Bryan
 3/2 - Initial commit with title and overview of the system  
 3/6 - Create Architectural Diagram  
 3/8 - Create UML Diagram and create architectural diagram description  
-3/9 - Create UML Diagram class, operations, and attributes descriptions  
+3/10 - Create UML Diagram class, operations, and attributes descriptions  
 
 ### Team Member Responsibilities
 Everyone - Description and Diagrams  
