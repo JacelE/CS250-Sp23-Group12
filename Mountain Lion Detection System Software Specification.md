@@ -48,9 +48,9 @@ Bryan
 
 ### Partitioning of Tasks
 3/2 - Initial commit with title and overview of the system  
-3/6 - Create Architectural Diagram
-3/8 - Create UML Diagram and create architectural diagram description
-3/9 - Create UMl Digram class, operations, and attributes descriptions
+3/6 - Create Architectural Diagram  
+3/8 - Create UML Diagram and create architectural diagram description  
+3/9 - Create UMl Digram class, operations, and attributes descriptions  
 
 ### Team Member Responsibilities
 Everyone - Description and Diagrams
