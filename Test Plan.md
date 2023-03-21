@@ -30,6 +30,8 @@ This/These tests are aimed at testing "Something"
 ### <span style="color:salmon"> Test 1: Alarm Generation </span>
 >Put Test here
 
-This test is aimed at covering the functionality of...
 
 ### <span style="color:salmon"> Test 2: Report Creation </span>
+>Put Test here
+
+These tests are aimed at covering the functionality of...
