@@ -15,23 +15,21 @@ before allowing them to access a map api showing the report and the location of 
 #### <span style="color:teal"> Updates from Previous UML Diagram </span>
 >Insert any new udpates we made here
 
-## <span style="color:pink"> Test Set 1 </span>
+## <span style="color:pink"> Test Set 1: Access to System </span>
 This/These tests are aimed at testing "Something".
 
-### <span style="color:salmon"> Test 1 </span>
+### <span style="color:salmon"> Test </span>
 >Put Test Here
 
 This Test is aimed at covering the functionality of...
 
-### <span style="color:salmon"> (Optional)Test 2 </span>
 
-
-## <span style="color:pink"> Test Set 2 </span>
+## <span style="color:pink"> Test Set 2: Alarm Report System </span>
 This/These tests are aimed at testing "Something"
 
-### <span style="color:salmon"> Test 1 </span>
+### <span style="color:salmon"> Test 1: Alarm Generation </span>
 >Put Test here
 
 This test is aimed at covering the functionality of...
 
-### <span style="color:salmon"> (Optional)Test 2 </span>
+### <span style="color:salmon"> Test 2: Report Creation </span>
