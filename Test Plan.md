@@ -13,7 +13,7 @@ in order to disable the alarm and check the report, the system will match their 
 before allowing them to access a map api showing the report and the location of the detection.
 
 #### <span style="color:teal"> Updates from Previous UML Diagram </span>
->Insert any new udpates we made here
+We felt that our diagram was adequate as it is and have not made any changes to it from the previous assignment.
 
 ## <span style="color:pink"> Test Set 1: Access to System </span>
 This/These tests are aimed at testing "Something".
