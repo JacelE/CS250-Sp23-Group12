@@ -116,3 +116,96 @@ sort the reports according to the input from the user, and the second function d
 
 ### Diagram
 <img src="Data Management Diagram .jpg" width="60%" height="60%">
+
+### Management Strategy
+For our approach to handling the data that would be necessary to run the animal detection system in 
+the park. we chose to adopt an SQL style data management strategy. Since most of our systems utlized 
+information from other systems, our databases would need to feature relationships between each other 
+in order to facilitate the flow of information necessary to keep our detection system running correctly. 
+In our case, we have 7 databases that were necessary to the system which will be identified and explained 
+below:
+
+PASSWORD_RESET:
+- email
+- securityCode
+- timeMadeFunction
+
+The password reset database keeps track of the email having its password reset, what security code the given 
+email should recieve, and the time at which the password reset was requested in order to terminate the process 
+when a given amount of time has passed
+
+RANGER:
+- id
+- name
+- email
+- password
+- rangerID
+- created/updated
+
+The ranger database stores all the information of the user accounts, storing their account id, name, emaile address, 
+password, rangerID and when the account was created/updated.
+
+SENSORS:
+- id
+- ranger_id
+- californiaPark_id
+- name
+
+The Sensors database stores the id and name of the sensors that are on the network, as well as both the rangerID of the 
+person accessing the server and the California park ID of the location where the server is located. This requires the 
+database to have a relationship with the ranger and california park databases in order to access their id information.
+
+CALIFORNIA PARK
+- id
+- name
+- location
+- map
+- trails
+- buildings
+- created/updated
+
+The California park database stores information about the different parks of California including their: name, id, location, 
+most recent map, trails, buildings, and when the park entry in the database was last created or updated on the network.
+
+ANIMAL SOUND
+- id
+- sensor_id
+- name
+- duration
+- time/date
+- created/updated
+
+The animal sound database accesses the sensor id from the sensor class in order to tag the correct sensors that were triggered 
+when generating the report for park rangers to investigate. It also creates and stores the id of the sound captured for future 
+reference, name created for the sound detection, duration of the sound, when the sound occured, and when the sound signature was 
+created and updated.
+
+INTERACTIONS
+- id
+- ranger_id
+- sound_id
+- detectionType
+- created/updated
+
+The interactions database accesses ranger id and sound id from the ranger and animal sound databases respectively. This is necessary 
+so that the system will know what user is currently interacting with the software as well as what sound report they are accessing. In 
+addition, the database stores an id of the interaction session, what detection type was determined, and when the interaction took place 
+in the system.
+
+REPORTS
+- id
+- sensor_id
+- sound_id
+- name
+- detectionType
+- created/updated
+
+The reports database accesses information from the interactions, animal sound, and california park databases in order to accuractely identify 
+what sensor was triggered, what sound was associated with the triggered sensor, what detection type was determined, and which park had the 
+detection system activate. In addition to these, the database stores the id of the generated report for future reference, the name of the report 
+and when the report was last created and updated in the system.
+
+Seeing how our databases needed to constantly interact with one another in order to generate reports and trigger sensors, we opted for the SQL 
+management approach in order to facilitate the interconnectedness we needed for our system.
+
+### Design Decisions
