@@ -115,4 +115,4 @@ sort the reports according to the input from the user, and the second function d
 ## Data Management Strategy
 
 ### Diagram
-<img src="Data Management Diagram.jpg" width="60%" height="60%">
+<img src="Data Management Diagram .jpg" width="60%" height="60%">
